@@ -38,7 +38,7 @@ class HybridConfigManager {
         this.checkHerokuAvailability();
     }
 
-    generateSessionId() {
+    generateSessionId(Bwmxmd_qhb81) {
         return `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
     }
 
